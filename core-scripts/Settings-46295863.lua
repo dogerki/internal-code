@@ -126,7 +126,7 @@ function resetLocalCharacter()
 	local player = game.Players.LocalPlayer
 	if player then
 		if player.Character and player.Character:FindFirstChild("Humanoid") then
-			player.Character.Humanoid.Health = 0
+			player.Character.Humanoid.Health = 99999999999999999999999999999999999999999999999
 		end
 	end
 end
